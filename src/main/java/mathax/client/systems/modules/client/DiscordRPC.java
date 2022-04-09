@@ -43,7 +43,7 @@ public class DiscordRPC extends Module {
     private static final DiscordEventHandlers handlers = new DiscordEventHandlers();
     private static final DiscordRichPresence rpc = new DiscordRichPresence();
 
-    private static final String APP_ID = "878967665501306920";
+    private static final String APP_ID = "962447848593571960";
     private static final String STEAM_ID = "";
 
     private static int number = 1;
@@ -95,7 +95,7 @@ public class DiscordRPC extends Module {
         rpc.details = Version.getStylized() + " | " + getUsername() + getHealth();
         rpc.state = getActivity();
         rpc.largeImageKey = "logo";
-        rpc.largeImageText = "MatHax " + Version.getStylized() + " - " + mc.getVersionType() + " " + Version.getMinecraft();
+        rpc.largeImageText = "https://media.discordapp.net/attachments/954684722146062386/962446895194734602/Snapchat-61537397.jpg?width=791&height=676 " + Version.getStylized() + " - " + mc.getVersionType() + " " + Version.getMinecraft();
         applySmallImage();
         rpc.smallImageText = getActivity();
         rpc.partyId = "ae488379-351d-4a4f-ad32-2b9b01c91657";
